@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa para Crear una Página Web con HTML y CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        code {
+            background: #eee;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        pre {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guía Completa para Crear una Página Web con HTML y CSS</h1>
+    </header>
+    <div class="container">
+        <h2>1. ¿Qué es HTML?</h2>
+        <p>HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar contenido en la web. Define elementos como encabezados, párrafos, imágenes y enlaces.</p>
+        
+        <h2>2. Estructura Básica de HTML</h2>
+        <p>Todo documento HTML debe comenzar con la siguiente estructura:</p>
+        <pre>
+&lt;!DOCTYPE html&gt; <!-- Declara el tipo de documento -->
+&lt;html lang="es"&gt; <!-- Define el idioma del documento -->
+&lt;head&gt; <!-- Contiene información sobre la página -->
+    &lt;meta charset="UTF-8"&gt; <!-- Define la codificación de caracteres -->
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <!-- Hace que la página sea responsiva -->
+    &lt;title&gt;Mi Página Web&lt;/title&gt; <!-- Título de la página -->
+&lt;/head&gt;
+&lt;body&gt; <!-- Contiene el contenido visible de la página -->
+    &lt;h1&gt;¡Hola Mundo!&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        
+        <h2>3. ¿Qué es CSS?</h2>
+        <p>CSS (Cascading Style Sheets) es el lenguaje utilizado para darle estilo a los documentos HTML. Permite cambiar colores, fuentes, márgenes y más.</p>
+        
+        <h2>4. Cómo Agregar Estilos con CSS</h2>
+        <p>Podemos darle estilo a nuestra página con CSS de diferentes maneras:</p>
+        <ul>
+            <li><strong>CSS en línea:</strong> Se aplica directamente en la etiqueta HTML con el atributo <code>style</code>.</li>
+            <li><strong>CSS interno:</strong> Se coloca dentro de la etiqueta <code>&lt;style&gt;</code> en el <code>&lt;head&gt;</code>.</li>
+            <li><strong>CSS externo:</strong> Se usa un archivo separado con extensión <code>.css</code> y se enlaza con <code>&lt;link&gt;</code>.</li>
+        </ul>
+        <pre>
+/* Ejemplo de CSS interno */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+        </pre>
+        
+        <h2>5. Creando una Página Completa</h2>
+        <p>Ahora combinamos HTML y CSS para hacer una página sencilla con un encabezado y un contenedor de contenido.</p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Mi Página Completa&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;Bienvenido a Mi Página&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;p&gt;¡Esto es una página web básica con HTML y CSS!&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        
+        <h2>6. Conclusión</h2>
+        <p>Con HTML y CSS puedes crear páginas web personalizadas y bien diseñadas. ¡Practica y experimenta con diferentes estilos para mejorar tus habilidades!</p>
+    </div>
+</body>
+</html>
